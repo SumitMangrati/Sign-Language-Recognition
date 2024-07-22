@@ -6,7 +6,7 @@ This project leverages the power of MediaPipe for efficient real-time sign langu
 
 **Keypoint Extraction**: Utilizing the MediaPipe Holistic API, keypoints of the hands were identified and extracted. This step simplified the representation of hand gestures by focusing on crucial landmarks, which were then stored as numpy arrays for subsequent training.
 
-**Model Training**: A sequential model was designed using the LSTM neural network and Computer Vision. For evaluation metrics using `Adam` optimizer and `categorical_crossentropy` loss function. The training process, benefited from MediaPipe's efficiency, resulting in significantly reduced training time. The holistic approach in extracting keypoints aided in faster and more reliable training.
+**Model Training**: A sequential model was designed using the LSTM neural network and Computer Vision. For evaluation metrics using Adam optimizer and categorical_crossentropy loss function. The training process, benefited from MediaPipe's efficiency, resulting in significantly reduced training time. The holistic approach in extracting keypoints aided in faster and more reliable training.
 
 ![image](https://github.com/user-attachments/assets/bfe69727-05ba-42c8-a5ce-035520a8d955)
 
