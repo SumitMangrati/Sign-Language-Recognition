@@ -1,5 +1,9 @@
 # Sign Language Detection using MediaPipe
 
+## Flow Diagram
+
+![diagram-export-4-4-2025-2_02_18-PM](https://github.com/user-attachments/assets/f99007ee-a65d-4b88-8124-a50fdfbf0cee)
+
 This project leverages the power of MediaPipe for efficient real-time sign language detection. Initially, a CNN with LSTM model was implemented but encountered significant training times. Transitioning to MediaPipe provided a remarkable reduction in training time while maintaining high accuracy due to its advanced hand tracking and gesture recognition capabilities. MediaPipe's efficient real-time hand tracking and accurate landmark detection streamline the workflow, thereby optimizing processing time.
 
 **Data Collection**: The project collected data through video recordings referred to as sequences. Each sequence was processed to produce 30 frames, capturing the intricate details of each action. This provided a comprehensive dataset for training.
